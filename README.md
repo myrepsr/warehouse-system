@@ -7,6 +7,9 @@ Important information:
 2. Information about starting the project after cloning:
 
 - The project uses JavaFX. Thus javafx sdk should be added to the path and VM options should be applied inside the project.
+
+VM Options: --module-path "/path/to/javafx-sdk-20/lib" --add-modules javafx.controls,javafx.fxml
+
 - The project uses MySQL driver for database connection. Thus MySQL server should be ON.
 - ER model is created with MySQL workbench. Pictures are included in the documentation.
 - UML diagrams are created with StarUML program. Pictures are included in the documentation.
