@@ -11,11 +11,10 @@ Important information:
 - ER model is created with MySQL workbench. Pictures are included in the documentation.
 - UML diagrams are created with StarUML program. Pictures are included in the documentation.
 
-3. Project Contents:
-
-    ERM - Entity relationship models
-    UML Models - UML diagrams designed with StarUML program
-    WSystem - the actual program and source code
-    Documentation
+3. Project Contents: 
+- ERM - Entity relationship models
+- UML Models - UML diagrams designed with StarUML program
+- WSystem - the actual program and source code
+- Documentation
 
 
