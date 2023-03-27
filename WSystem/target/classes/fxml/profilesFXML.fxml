@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="625.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="system.application.controllers.admin.ProfilesController">
+   <children>
+      <AnchorPane layoutX="67.0" layoutY="42.0" prefHeight="542.0" prefWidth="699.0" styleClass="anchorPane2" stylesheets="@../styling/registrationScreenCSS.css">
+         <children>
+            <Label layoutX="263.0" layoutY="43.0" text="PROFILES" textFill="#2e9cca">
+               <font>
+                  <Font name="Agency FB" size="59.0" />
+               </font>
+            </Label>
+            <Pane layoutX="19.0" layoutY="123.0" prefHeight="7.0" prefWidth="657.0" style="-fx-background-color: #2E9CCA; -fx-background-radius: 50;" styleClass="line" />
+            <Pane layoutX="224.0" layoutY="161.0" prefHeight="5.0" prefWidth="251.0" style="-fx-background-color: #2E9CCA; -fx-background-radius: 50;" styleClass="line" />
+            <Pane layoutX="419.0" layoutY="316.0" prefHeight="7.0" prefWidth="7.0" style="-fx-background-color: #2E9CCA; -fx-background-radius: 50;" styleClass="line" />
+            <Pane layoutX="274.0" layoutY="316.0" prefHeight="7.0" prefWidth="7.0" style="-fx-background-color: #2E9CCA; -fx-background-radius: 50;" styleClass="line" />
+            <Pane layoutX="282.0" layoutY="300.0" prefHeight="135.0" prefWidth="135.0" style="-fx-background-color: #25274D; -fx-background-radius: 100;" styleClass="line">
+               <children>
+                  <Button fx:id="viewAgentsButton" layoutX="4.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleViewAgents" prefHeight="47.0" prefWidth="128.0" styleClass="registerButton" stylesheets="@../styling/registrationScreenCSS.css" text="View Agents">
+                     <font>
+                        <Font name="Agency FB" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="282.0" layoutY="205.0" prefHeight="135.0" prefWidth="135.0" style="-fx-background-color: #25274D; -fx-background-radius: 100;" styleClass="line">
+               <children>
+                  <Button fx:id="viewOwnersButton" layoutX="3.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleViewOwners" prefHeight="47.0" prefWidth="128.0" styleClass="registerButton" stylesheets="@../styling/registrationScreenCSS.css" text="View Owners" textFill="#e1dfdf">
+                     <font>
+                        <Font name="Agency FB" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

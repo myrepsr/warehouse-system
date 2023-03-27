@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="625.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="system.application.controllers.owner.ViewProfileController">
+   <children>
+      <AnchorPane layoutX="92.0" layoutY="33.0" prefHeight="560.0" prefWidth="634.0" styleClass="profilePane" stylesheets="@../styling/adminPanelCSS.css">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="84.0" layoutX="283.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../styling/images/owner.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="editButton" layoutX="218.0" layoutY="455.0" mnemonicParsing="false" onAction="#handleEditButton" prefHeight="25.0" prefWidth="200.0" styleClass="registerButton" stylesheets="@../styling/registrationScreenCSS.css" text="Edit">
+               <font>
+                  <Font name="Gulim" size="16.0" />
+               </font>
+            </Button>
+            <Hyperlink fx:id="changePassword" layoutX="260.0" layoutY="500.0" onAction="#handleChangePass" text="Change password?" underline="true">
+               <font>
+                  <Font name="Gulim" size="12.0" />
+               </font></Hyperlink>
+            <VBox fx:id="profileVbox" alignment="CENTER" layoutX="105.0" layoutY="110.0" prefHeight="329.0" prefWidth="441.0" styleClass="firstPane" stylesheets="@../styling/registrationScreenCSS.css">
+               <children>
+                  <HBox alignment="BASELINE_CENTER" prefHeight="20.0" prefWidth="380.0">
+                     <children>
+                        <Label text="First name:" textFill="WHITE">
+                           <font>
+                              <Font name="Gulim" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="firstNameLabel" text="firstName" textFill="#25274d">
+                           <font>
+                              <Font name="Agency FB" size="22.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="15.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BASELINE_CENTER" prefHeight="20.0" prefWidth="380.0">
+                     <children>
+                        <Label text="Last name:" textFill="WHITE">
+                           <font>
+                              <Font name="Gulim" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="lastNameLabel" text="lastName" textFill="#25274d">
+                           <font>
+                              <Font name="Agency FB" size="22.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="15.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BASELINE_CENTER" prefHeight="20.0" prefWidth="380.0">
+                     <children>
+                        <Label text="Username:" textFill="WHITE">
+                           <font>
+                              <Font name="Gulim" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="usernameLabel" text="username" textFill="#25274d">
+                           <font>
+                              <Font name="Agency FB" size="22.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="15.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BASELINE_CENTER" prefHeight="20.0" prefWidth="380.0">
+                     <children>
+                        <Label text="Email:" textFill="WHITE">
+                           <font>
+                              <Font name="Gulim" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="emailLabel" text="email" textFill="#25274d">
+                           <font>
+                              <Font name="Agency FB" size="22.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="15.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BASELINE_CENTER" prefHeight="20.0" prefWidth="380.0">
+                     <children>
+                        <Label text="Phone number:" textFill="WHITE">
+                           <font>
+                              <Font name="Gulim" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="phoneLabel" text="phoneNumber" textFill="#25274d">
+                           <font>
+                              <Font name="Agency FB" size="22.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="15.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <AnchorPane fx:id="editPane" layoutX="105.0" layoutY="110.0" prefHeight="329.0" prefWidth="441.0" styleClass="firstPane" stylesheets="@../styling/registrationScreenCSS.css" visible="false">
+               <children>
+                  <TextField fx:id="firstNameField" layoutX="144.0" layoutY="20.0" promptText="First name" styleClass="usernameField" stylesheets="@../styling/registrationScreenCSS.css" />
+                  <TextField fx:id="lastNameField" layoutX="144.0" layoutY="65.0" promptText="Last name" styleClass="usernameField" />
+                  <TextField fx:id="usernameField" layoutX="144.0" layoutY="110.0" promptText="Username" styleClass="usernameField" />
+                  <TextField fx:id="emailField" layoutX="144.0" layoutY="155.0" promptText="Email" styleClass="usernameField" />
+                  <TextField fx:id="phoneField" layoutX="144.0" layoutY="200.0" promptText="Phone number" styleClass="usernameField" />
+                  <Label fx:id="violationsLabel" layoutX="156.0" layoutY="248.0" text="Couldn't update profile. " textFill="RED" underline="true" visible="false" />
+                  <Button fx:id="doneButton" layoutX="120.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleDoneButton" prefHeight="25.0" prefWidth="48.0" style="-fx-background-color: #25274D; -fx-text-fill: white;" styleClass="registerButton" text="Done" />
+                  <Button fx:id="cancelButton" layoutX="271.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleCancelButton" prefHeight="25.0" prefWidth="53.0" style="-fx-background-color: #25274D; -fx-text-fill: white;" styleClass="registerButton" text="Cancel" />
+                  <Hyperlink fx:id="why1" layoutX="324.0" layoutY="46.0" onMouseEntered="#showConsBox1" onMouseExited="#hideConsBox1" text="Why?" textFill="RED" visible="false">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink fx:id="why2" layoutX="324.0" layoutY="181.0" onMouseEntered="#showConsBox2" onMouseExited="#hideConsBox2" text="Why?" textFill="RED" visible="false">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <VBox fx:id="consVbox2" layoutX="527.0" layoutY="354.0" prefHeight="187.0" prefWidth="207.0" style="-fx-background-color: #25274D; -fx-border-color: #14152B;" visible="false" />
+      <VBox fx:id="consVbox1" layoutX="527.0" layoutY="218.0" prefHeight="187.0" prefWidth="207.0" style="-fx-background-color: #25274D; -fx-border-color: #14152B;" visible="false" />
+   </children>
+</AnchorPane>

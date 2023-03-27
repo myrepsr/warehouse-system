@@ -1,0 +1,8 @@
+[INFO ] 2023-03-27 00:15:25.998 [Thread-2] Configuration - Successfully finished creating the database!
+[INFO ] 2023-03-27 00:15:26.783 [Thread-2] Configuration - Successfully connected to my-persistence-unit
+[INFO ] 2023-03-27 00:15:26.829 [Thread-2] Configuration - Successfully finished creating factory and manager!
+[INFO ] 2023-03-27 00:15:27.102 [Thread-2] Configuration - Successfully finished creating the system!
+[INFO ] 2023-03-27 00:15:27.103 [Thread-2] Configuration - Successfully finished the configuration of the application!
+[INFO ] 2023-03-27 00:16:33.106 [JavaFX Application Thread] AdminLoginController - Successfully finished the authorization of the admin
+[INFO ] 2023-03-27 00:16:36.893 [JavaFX Application Thread] AdminLoginController - Successfully finished the authorization of the admin
+[INFO ] 2023-03-27 00:17:56.804 [JavaFX Application Thread] AdminLoginController - Successfully finished the authorization of the admin

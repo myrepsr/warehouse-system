@@ -1,0 +1,2 @@
+[ERROR] 2023-03-27 00:16:33.105 [JavaFX Application Thread] AuthorizationService, authorizeLogin - An exception has occurred during the authorization of: class system.backend.profiles.Admin, message: No entity found for query
+[ERROR] 2023-03-27 00:16:36.892 [JavaFX Application Thread] AuthorizationService, authorizeLogin - An exception has occurred during the authorization of: class system.backend.profiles.Admin, message: No entity found for query

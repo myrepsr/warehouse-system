@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="546.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="system.application.controllers.login.AgentLoginController">
+   <children>
+      <AnchorPane fx:id="anchorPane2" layoutX="88.0" layoutY="48.0" prefHeight="450.0" prefWidth="460.0" styleClass="anchorPane2" stylesheets="@../styling/loginScreenCSS.css">
+         <children>
+            <TextField fx:id="usernameField" layoutX="143.0" layoutY="167.0" prefHeight="25.0" prefWidth="175.0" promptText="Username" styleClass="usernameField">
+               <font>
+                  <Font name="Gulim" size="13.0" />
+               </font>
+            </TextField>
+            <Label fx:id="userTypeLabel" layoutX="160.0" layoutY="47.0" styleClass="userTypeLabel" text="AGENT" textFill="#2e9cca">
+               <font>
+                  <Font name="Agency FB Bold" size="64.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField" layoutX="143.0" layoutY="225.0" prefHeight="25.0" prefWidth="175.0" promptText="Password" styleClass="passwordField">
+               <font>
+                  <Font name="Gulim" size="13.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="loginButton" defaultButton="true" layoutX="143.0" layoutY="320.0" mnemonicParsing="false" onAction="#setOnAction" prefHeight="25.0" prefWidth="175.0" styleClass="loginButton" text="Login">
+               <font>
+                  <Font name="Gulim" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

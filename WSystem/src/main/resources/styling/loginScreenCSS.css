@@ -1,0 +1,54 @@
+.anchorPane2{
+-fx-background-color: #202245;
+-fx-background-radius: 50px;
+-fx-border-radius: 50px;
+-fx-border-color: #14152b;
+-fx-border-width: 1px;
+}
+.loginButton{
+-fx-background-color: #2E9CCA;
+-fx-background-radius: 50px;
+-fx-text-fill: black;
+}
+.loginButton:hover{
+-fx-background-color: #29648A;
+-fx-cursor: hand;
+}
+.usernameField{
+-fx-background-color: #202245;
+-fx-border-color: #2E9CCA;
+-fx-border-radius: 50px;
+-fx-border-width: 1px;
+-fx-background-radius: 50px;
+-fx-prompt-text-fill: #2E9CCA;
+-fx-text-fill: #E1DFDF;
+}
+.usernameField:fieldsCheck{
+-fx-border-color: red;
+-fx-border-radius: 50px;
+-fx-border-width: 1px;
+}
+
+.passwordField{
+-fx-background-color: #202245;
+-fx-border-color: #2E9CCA;
+-fx-border-radius: 50px;
+-fx-border-width: 1px;
+-fx-background-radius: 50px;
+-fx-prompt-text-fill: #2E9CCA;
+-fx-text-fill: #E1DFDF;
+}
+.passwordField:fieldsCheck{
+-fx-border-color: red;
+-fx-border-radius: 50px;
+-fx-border-width: 1px;
+}
+.loginFalseLabel{
+-fx-text-fill: red;
+}
+.userTypeLabel{
+-fx-text-fill: #2E9CCA;
+}
+.userTypeLabel:hover{
+-fx-text-fill: #29648A;
+}

@@ -1,0 +1,88 @@
+.anchorPane2{
+-fx-background-color: #202245;
+-fx-background-radius: 50px;
+-fx-border-radius: 50px;
+-fx-border-color: #14152b;
+-fx-border-width: 1px;
+}
+.pane{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 1px;
+}
+.firstPane{
+-fx-background-color: linear-gradient(to bottom, #2E9CCA ,#37b2e6);
+-fx-background-radius: 35px;
+}
+.secondPane{
+-fx-background-color: linear-gradient(to top, #2E9CCA, #37b2e6);
+-fx-background-radius: 35px;
+}
+.registerButton{
+-fx-background-color: #2E9CCA;
+-fx-background-radius: 50px;
+-fx-text-fill: black;
+}
+.registerButton:hover{
+-fx-background-color: #29648A;
+-fx-cursor: hand;
+}
+.usernameField{
+-fx-background-color: #2E9CCA;
+-fx-background-radius: 50px;
+-fx-border-color: #202245;
+-fx-border-radius: 50px;
+-fx-border-width: 1.5px;
+-fx-prompt-text-fill: #202245;
+-fx-text-fill: black;
+}
+.editFields{
+-fx-background-color: #202245;
+-fx-border-color: #2E9CCA;
+-fx-border-radius: 50px;
+-fx-border-width: 1px;
+-fx-background-radius: 50px;
+-fx-prompt-text-fill: #2E9CCA;
+-fx-text-fill: #E1DFDF;
+}
+.userTypeLabel{
+-fx-text-fill: #2E9CCA;
+}
+.userTypeLabel:hover{
+-fx-text-fill: #29648A;
+}
+.why1, .why2{
+cursor: hand;
+-fx-text-fill: red;
+}
+.exitButton{
+-fx-background-color: none;
+-fx-cursor: hand;
+}
+.listView{
+-fx-background-color: none;
+-fx-border-color: #202245;
+-fx-border-radius: 10px;
+-fx-border-width: 1.5px;
+-fx-background-radius: 10px;
+}
+.listView .list-cell{
+-fx-background-color: none;
+-fx-background-radius: 10px;
+}
+.listView .list-cell:selected{
+-fx-background-color: #202245;
+}
+.listView .list-cell:hover{
+-fx-text-fill: #E1DFDF;
+}
+.comboBox{
+-fx-background-color: none;
+-fx-border-color: #202245;
+-fx-border-radius: 10px;
+-fx-border-width: 1.5px;
+-fx-background-radius: 10px;
+}
+.comboBox .arrow{
+-fx-background-color: #202245;
+}

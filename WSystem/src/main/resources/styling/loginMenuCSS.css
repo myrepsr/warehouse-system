@@ -1,0 +1,50 @@
+.topPane{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+}
+.WSLabel:hover{
+-fx-text-fill: #29648A;
+}
+.exitButton{
+-fx-background-color: none;
+-fx-cursor: hand;
+}
+.exitButton:hover{
+-fx-text-fill: #29648A;
+}
+.navBox{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 1 0 0;
+}
+.administratorButton{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+-fx-cursor: hand;
+}
+.administratorButton:hover{
+-fx-background-color: #2E9CCA;
+}
+.ownerButton{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+-fx-cursor: hand;
+}
+.ownerButton:hover{
+-fx-background-color: #2E9CCA;
+}
+.agentButton{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+-fx-cursor: hand;
+}
+.agentButton:hover{
+-fx-background-color: #2E9CCA;
+}
+.loaderPane{
+-fx-background-color: #25274D;
+}

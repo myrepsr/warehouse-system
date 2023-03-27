@@ -1,0 +1,124 @@
+.anchorPane{
+-fx-background-color: #25274D;
+}
+.topPane{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+}
+.WSLabel:hover{
+-fx-text-fill: #29648A;
+}
+.exitButton{
+-fx-background-color: none;
+-fx-cursor: hand;
+}
+.exitButton:hover{
+-fx-text-fill: #29648A;
+}
+
+.gridPane{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 1 0 0;
+}
+.createOwnerButton{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+-fx-cursor: hand;
+}
+.createOwnerButton:hover{
+-fx-background-color: #2E9CCA;
+}
+.createAgentButton{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 0 0 1 0;
+-fx-cursor: hand;
+}
+.createAgentButton:hover{
+-fx-background-color: #2E9CCA;
+}
+.profilesButton{
+-fx-background-color: #202245;
+-fx-border-color: #14152b;
+-fx-border-width: 1 0 0 0;
+-fx-cursor: hand;
+}
+.profilesButton:hover{
+-fx-background-color: #2E9CCA;
+}
+.line{
+-fx-background-color: #2E9CCA;
+-fx-background-radius: 50px;
+}
+.loaderPane{
+-fx-background-color: #25274D;
+}
+.transparent{
+-fx-background: #25274D;
+-fx-background-color: #25274D;
+}
+.shadow{
+-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 3, 0.5, 0.0, 0.0);
+}
+.noshadow{
+-fx-effect: none;
+}
+.editButton{
+-fx-background-color: none;
+-fx-background-image: url("images/editButton.png");
+-fx-background-size: 35px;
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: 90%;
+ -fx-cursor: hand;
+}
+.editButton:hover{
+-fx-background-image: url("images/editButtonHover.png");
+}
+.deleteButton{
+-fx-background-color: none;
+-fx-background-image: url("images/deleteButton.png");
+-fx-background-size: 35px;
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: 90%;
+ -fx-cursor: hand;
+}
+.deleteButton:hover{
+-fx-background-image: url("images/deleteButtonHover.png");
+}
+.backButton{
+-fx-background-color: none;
+-fx-background-image: url("images/backButton.png");
+-fx-background-size: 60px;
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: 90%;
+ -fx-cursor: hand;
+}
+.backButton:hover{
+-fx-background-image: url("images/backButtonHover.png");
+}
+.logoutButton{
+-fx-background-color: none;
+-fx-background-image: url("images/logoutButton.png");
+-fx-background-size: 35px;
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: 90%;
+ -fx-cursor: hand;
+}
+.logoutButton:hover{
+-fx-background-image: url("images/logoutButtonHover.png");
+}
+.profilePane{
+-fx-background-color: #25274D;
+-fx-background-radius: 50px;
+-fx-border-radius: 50px;
+-fx-border-color: #14152b;
+-fx-border-width: 1px;
+}
+.registerButton{
+-fx-background-color: #2E9CCA;
+-fx-background-radius: 50px;
+-fx-text-fill: black;
+}
